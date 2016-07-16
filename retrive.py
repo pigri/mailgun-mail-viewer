@@ -7,8 +7,6 @@ import sys
 
 import requests
 
-print
-
 if len(sys.argv) != 4:
     print "Usage: retrieve.py api_key domain message_id"
     sys.exit(1)
