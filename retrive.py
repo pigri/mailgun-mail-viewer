@@ -20,7 +20,7 @@ file_name = "message.eml"
 # let's make the url for retrieval
 domain = sys.argv[2]
 key = sys.argv[3]
-url = "https://si.api.mailgun.net/v3/domains/%s/messages/%s"
+url = "https://sw.api.mailgun.net/v3/domains/%s/messages/%s"
 url = url % (domain, key)
 
 # this will help us to get the raw MIME
